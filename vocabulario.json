@@ -1,0 +1,58 @@
+{
+    "reflexive_writing_pipeline": [
+      {
+        "step": "Formatação do texto",
+        "template": "O texto deve ser um em formato de parágrafos e conter todo o texto original, porém aplicado os passos do json e suas validações.",
+        "example": "O texto original deve ser mantido em formato de parágrafos, e cada parágrafo deve seguir os passos do json e suas validações.",
+        "validation_regex": "O texto deve ser um em formato de parágrafos e conter todo o texto original, porém aplicado os passos do json e suas validações\\."
+      },
+      {
+        "step": "Identificação do aspecto significativo",
+        "template": "Para mim, a [experiência mais significativa] no [contexto] foi [aspecto].",
+        "example": "Para mim, a experiência mais significativa no projeto de desenvolvimento de software foi a sessão de brainstorming inicial.",
+        "validation_regex": "Para mim, a (experiência mais significativa|experiência mais importante|aspecto mais relevante|aspecto mais útil) no [^ ]+ foi [^\\.]+\\."
+      },
+      {
+        "step": "Origem do aspecto",
+        "template": "Este [aspecto] do [contexto] [surgiu da necessidade] de [ação/resultado].",
+        "example": "Este aspecto do projeto surgiu da necessidade de gerar ideias inovadoras e eficazes para resolver os problemas identificados pelos stakeholders.",
+        "validation_regex": "Este (aspecto|elemento|experiência) do [^ ]+ (surgiu da necessidade|surgiu de|originou-se de) de [^\\.]+\\."
+      },
+      {
+        "step": "Reflexão inicial",
+        "template": "[Temporal marcador], eu [verbo de pensamento/ação] que [expectativa inicial] devido a [razão].",
+        "example": "Inicialmente, eu pensei que a sessão seria pouco produtiva devido à falta de preparação da equipe.",
+        "validation_regex": "(Inicialmente|No começo|Primeiramente|Anteriormente|Na primeira vez), eu (pensei|achei|supus|imaginei) que [^\\.]+ devido a [^\\.]+\\."
+      },
+      {
+        "step": "Mudança de percepção",
+        "template": "[Conector de contraste], [verbo de percepção] que, à medida que [descrição do desenvolvimento], [resultado positivo].",
+        "example": "No entanto, notei que, à medida que a discussão progredia, as ideias começaram a fluir mais livremente, resultando em soluções criativas e viáveis.",
+        "validation_regex": "(No entanto|Porém|Contudo|Entretanto), (notei|percebi|observei) que, à medida que [^,]+, [^\\.]+\\."
+      },
+      {
+        "step": "Resultado subsequente",
+        "template": "[Temporal marcador], [verbo de percepção] que [observação sobre resultado].",
+        "example": "Posteriormente, percebi que a colaboração entre os membros da equipe foi a chave para o sucesso do brainstorming.",
+        "validation_regex": "(Posteriormente|Mais tarde|Depois|Em seguida), (percebi|notei|observei) que [^\\.]+\\."
+      },
+      {
+        "step": "Explicação de eficácia",
+        "template": "Este [elemento/aspecto] foi [adjetivo de probabilidade] eficaz devido a [razão].",
+        "example": "Este elemento foi provavelmente eficaz devido à diversidade de perspectivas trazidas pelos diferentes membros.",
+        "validation_regex": "Este (elemento|aspecto|fator) foi (provavelmente|talvez|possivelmente) eficaz devido a [^\\.]+\\."
+      },
+      {
+        "step": "Conclusão reflexiva",
+        "template": "[Conector de adição], esta [experiência/aspecto] [verbo de revelação] a importância de [lição].",
+        "example": "Igualmente, esta experiência revelou a importância de um ambiente aberto e encorajador para a inovação.",
+        "validation_regex": "(Igualmente|De igual modo|Da mesma forma), esta (experiência|situação|atividade) (revelou|demonstrou|mostrou) a importância de [^\\.]+\\."
+      },
+      {
+        "step": "Resumo da lição aprendida",
+        "template": "[Conector de resumo], a [experiência/aspecto] [verbo de demonstração] como [conclusão].",
+        "example": "Em suma, a sessão de brainstorming demonstrou como a comunicação efetiva pode transformar uma situação potencialmente estagnada em uma fonte de soluções inovadoras e colaborativas.",
+        "validation_regex": "(Em suma|Resumindo|Concluindo), a (experiência|sessão|atividade) (demonstrou|mostrou) como [^\\.]+\\."
+      }
+    ]
+  }
