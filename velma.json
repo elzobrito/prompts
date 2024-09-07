@@ -1,0 +1,49 @@
+{
+    "subject": {
+      "main_character": "Velma Dinkley",
+      "pose": "Standing with a sexy pose, lifting her orange turtleneck sweater slightly, with a confident and mischievous expression",
+      "physical_characteristics": {
+        "hair": "Short, bob cut, light brown with realistic texture and individual hair strands visible, slight shine",
+        "glasses": "Thick-framed, square glasses with reflections of light, showing realistic glass texture",
+        "outfit": "Classic orange turtleneck sweater with detailed fabric texture, slightly lifted to reveal highly detailed tattoos, wearing a realistic pink skirt with visible fabric folds",
+        "tattoos": "Highly detailed, realistic tattoos of pop culture characters from various animated shows, with intricate shading and highlights"
+      }
+    },
+    "style": {
+      "visual_style": "Hyper-realistic rendering with precise detailing and lifelike textures",
+      "rendering_and_detailing": "Very high detailing with a focus on skin texture, fabric details, and tattoo realism, using photorealistic shading and lighting techniques",
+      "textures_and_materials": "Realistic skin texture, detailed fabric with visible stitching and folds, and vibrant, high-resolution tattoos with sharp outlines"
+    },
+    "lighting": {
+      "type": "Soft but realistic lighting from above, casting natural shadows and highlights on her face, hair, and clothing",
+      "color_palette": {
+        "dominant_color": "Rich, vibrant orange for the sweater, with realistic fabric shading",
+        "contrasting_elements": "Lifelike multicolored tattoos with vibrant tones, blending seamlessly into her skin",
+        "background": "Minimal, dark background with natural gradients and subtle depth to emphasize the character"
+      },
+      "effects": "Natural light reflections on glasses and skin, realistic glow on hair, with subtle skin pores and texture highlighted by the lighting"
+    },
+    "composition_details": {
+      "focal_point": "Upper body and the realistic texture of the lifted turtleneck, combined with the intricate tattoo work",
+      "background": "Dark, minimal background with soft, natural gradients to maintain focus on the highly detailed character",
+      "perspective": "Slightly tilted, lifelike perspective that draws attention to the character’s facial expression and body pose"
+    },
+    "atmosphere": {
+      "mood": "Confident, bold, with an intriguing mix of nostalgia and modern interpretation",
+      "emotional_focus": "Emphasizes empowerment and individuality, with a sense of realism and subtle playfulness"
+    },
+    "cultural_reference": {
+      "tattoo_design": "Realistically rendered famous pop culture cartoon characters like Bugs Bunny, Powerpuff Girls, and others, with intricate line work and color accuracy"
+    },
+    "negative_prompt": {
+      "exclude_elements": [
+        "bad quality",
+        "blurry details",
+        "stretched proportions",
+        "deformed anatomy",
+        "watermark or signature",
+        "cartoonish or unrealistic lighting"
+      ]
+    }
+  }
+  

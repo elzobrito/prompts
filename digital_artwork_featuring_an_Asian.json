@@ -1,0 +1,23 @@
+{
+    "subject": "A digital artwork featuring an Asian woman’s face shown multiple times in overlapping views.",
+    "action": "No specific action; the focus is on the reflective and layered presentation of the woman's face.",
+    "setting": "Abstract, with a focus on the woman's face and layered textures.",
+    "time": "Not applicable.",
+    "style": {
+        "artistic_style": "Surrealism and modern digital art.",
+        "rendering_technique": "Digital painting with texture overlays."
+    },
+    "lighting": {
+        "type": "Soft lighting that enhances the warm tones and textured overlays.",
+        "color_palette": "Warm tones such as reds and oranges, contrasted with darker shadows and highlights."
+    },
+    "detail_level": "High detail, focusing on the textures and the different angles of the woman’s face.",
+    "composition_details": {
+        "shot_type": "Close-up view of the woman's face.",
+        "angle": "Multiple overlapping frontal views."
+    },
+    "atmosphere": "Reflective, surreal, and contemplative, with a touch of melancholy and mystery.",
+    "cultural_reference": "Related to themes of identity and memory, possibly incorporating traditional cultural elements.",
+    "temporal_aspect": "Not applicable.",
+    "negative_prompt": "Avoid low quality, blurry, distorted proportions, and unrelated elements."
+}

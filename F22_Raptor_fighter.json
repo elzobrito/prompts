@@ -1,0 +1,29 @@
+{
+    "subject": "one F-22 Raptor fighter jet breaking the sound barrier, creating vapor cone effects",
+    "action": "Jets flying at supersonic speed, breaking the sound barrier",
+    "setting": {
+        "top_image": "Clear blue sky over an ocean",
+        "bottom_image": "Surreal, stylized background with exaggerated colors and waves"
+    },
+    "time": "Daytime",
+    "style": {
+        "top_image": "Realistic photography",
+        "bottom_image": "Stylized digital art with surreal elements"
+    },
+    "lighting": {
+        "top_image": "Natural lighting",
+        "bottom_image": "Enhanced, vibrant lighting with a focus on exaggerated colors"
+    },
+    "detail_level": "High detail, capturing the precise moment of the sound barrier being broken and the resulting vapor cone effect",
+    "composition_details": {
+        "top_image": "Centered composition with the jet as the focal point, dynamic vapor cone effect",
+        "bottom_image": "Centered composition with exaggerated, radiating lines to emphasize motion"
+    },
+    "atmosphere": {
+        "top_image": "Awe-inspiring and dramatic",
+        "bottom_image": "Exciting and surreal"
+    },
+    "cultural_reference": "Related to aviation technology and modern digital art techniques",
+    "temporal_aspect": "Modern era, reflecting contemporary technological achievements and art styles",
+    "negative_prompt": "Avoid low quality, blurry images, distorted proportions, and unrelated elements"
+}

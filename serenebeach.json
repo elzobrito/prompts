@@ -1,0 +1,23 @@
+{
+    "subject": "A serene beach scene with palm trees and reflections in the water",
+    "action": "no specific action",
+    "setting": "beach with calm water and palm trees",
+    "time": "daytime",
+    "style": {
+        "artistic_style": "impressionist",
+        "rendering_technique": "digital painting"
+    },
+    "lighting": {
+        "type": "soft and diffuse",
+        "color_palette": "shades of blue, green, and white"
+    },
+    "detail_level": "medium detail focusing on the reflections and textures",
+    "composition_details": {
+        "shot_type": "landscape",
+        "angle": "angled view with trees leaning towards the center"
+    },
+    "atmosphere": "calm and tranquil",
+    "cultural_reference": "related to natural beauty and serenity",
+    "temporal_aspect": "daytime",
+    "negative_prompt": "Low quality, blurry, distorted proportions, unrelated elements."
+}
