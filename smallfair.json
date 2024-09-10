@@ -1,0 +1,23 @@
+{
+    "subject": "A small, fairy-like figure with translucent wings, standing gracefully and glowing with soft light",
+    "action": "Standing still, facing the viewer with an ethereal expression",
+    "setting": "An enchanted, misty forest with glowing flowers and particles floating in the air",
+    "time": "Undefined, with a warm golden light illuminating the scene",
+    "style": {
+      "artistic_style": "Fantastical realism with a focus on elegance and subtlety",
+      "rendering_technique": "Digital illustration with soft, flowing lines and delicate shading"
+    },
+    "lighting": {
+      "type": "Soft and radiant, with warm, diffused light coming from the front, casting gentle shadows",
+      "color_palette": "Cool greens and blues for the background, with golden highlights on the fairy's figure and wings"
+    },
+    "detail_level": "High detail on the wings, hair, and surrounding environment, with soft shading on the body and strategic use of light and shadow",
+    "composition_details": {
+      "shot_type": "Full body, frontal view, with soft lighting and floral elements partially obscuring parts of the figure",
+      "angle": "Slightly from below, giving the fairy an elevated, majestic presence"
+    },
+    "atmosphere": "Ethereal, serene, and magical, with a focus on natural beauty and mystery",
+    "cultural_reference": "Inspired by timeless depictions of fairies in folklore, blending elegance with a sense of enchantment",
+    "temporal_aspect": "Timeless, invoking classic fairy tale imagery with a modern artistic approach",
+    "negative_prompt": "Avoid harsh or direct lighting, exaggerated anatomy, or modern/urban elements. Keep the scene soft, natural, and focused on beauty, light, and subtlety,unrelated elements, Avoid low quality, incorrect anatomy, excessive blur, distorted proportions, poor lighting, presence of watermarks, text, or signatures."
+  }
