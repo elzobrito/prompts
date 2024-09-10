@@ -1,0 +1,37 @@
+{
+    "image": {
+      "title": "Lucifer Before The Fall",
+      "subject": {
+        "name": "Lucifer",
+        "type": "Light Angel",
+        "attributes": {
+          "wings": "large, luminous",
+          "appearance": "celestial, radiant"
+        }
+      },
+      "setting": {
+        "environment": "heavenly realm",
+        "context": "before the fall from grace"
+      },
+      "style": {
+        "artistic_style": "hyper realistic, charcoal drawing",
+        "features": {
+          "texture": "gritty, with visible charcoal strokes",
+          "color": "flat colors with an emphasis on light and shadow play"
+        }
+      },
+      "lighting": {
+        "type": "divine light",
+        "effect": "highlighting the luminescence of the wings and Lucifer's ethereal presence"
+      },
+      "composition": {
+        "shot_type": "full body",
+        "angle": "neutral, showcasing the grandeur of the subject"
+      },
+      "atmosphere": "serene yet powerful, capturing the moment before a significant transformation",
+      "cultural_reference": "Biblical and mythological depictions of angels, specifically Lucifer as the morning star",
+      "negative_prompt": {
+        "avoid": ["dark themes", "signs of rebellion or fall", "modern or digital art techniques"]
+      }
+    }
+  }
