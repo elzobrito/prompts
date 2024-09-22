@@ -1,0 +1,23 @@
+{
+    "subject": "A young woman with vibrant red hair enclosed in a transparent sphere",
+    "action": "Looking over her shoulder with an intense gaze",
+    "setting": "Rainy urban nighttime street with neon lights and reflections",
+    "time": "Night",
+    "style": {
+      "artistic_style": "Digital art blending photorealism with cyberpunk elements",
+      "rendering_technique": "High-detail digital painting or photo manipulation"
+    },
+    "lighting": {
+      "type": "Moody nocturnal lighting with neon-like glows",
+      "color_palette": "Cool blues and teals contrasted with warm reds"
+    },
+    "detail_level": "High detail, especially in water droplets and light reflections",
+    "composition_details": {
+      "shot_type": "Close-up portrait",
+      "angle": "Slightly off-center, subject looking over shoulder"
+    },
+    "atmosphere": "Surreal, isolating, and slightly melancholic with a sense of wonder",
+    "cultural_reference": "Contemporary urban life, technology, and human isolation",
+    "temporal_aspect": "Futuristic present or near future",
+    "negative_prompt": "Low quality, blurry, distorted proportions, unrelated elements, fully realistic or non-stylized depiction"
+  }
