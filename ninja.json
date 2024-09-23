@@ -1,0 +1,54 @@
+{
+    "subject": "Asian female warrior-assassin character",
+    "action": "Posing dramatically, with variations including: standing alert with weapon drawn, meditating in rain, engaging in acrobatic combat moves",
+    "setting": "Moody urban or traditional Asian architecture backdrop, with atmospheric effects like rain or embers",
+    "time": "Night or twilight, with dramatic lighting",
+    "style": {
+  "artistic_style": "Hyper-realistic cosplay",
+      "rendering_technique": "3D render or highly detailed digital painting"
+    },
+    "lighting": {
+      "type": "Dramatic, with strong contrasts and rim lighting",
+      "color_palette": "Dark blues and blacks with golden highlights, warm skin tones"
+    },
+    "detail_level": "Ultra-high detail, focusing on skin texture, fabric details, and environmental effects",
+    "composition_details": {
+      "shot_type": "Close-up or medium shots, focusing on face and upper body",
+      "angle": "Straight-on or slight low angle to emphasize power"
+    },
+    "atmosphere": "Mysterious, powerful, and slightly intimidating",
+    "cultural_reference": "Blend of traditional Asian warrior aesthetics with modern fantasy elements",
+    "temporal_aspect": "Timeless, mixing traditional and futuristic elements",
+    "character_details": {
+      "ethnicity": "East Asian",
+      "hair": "Long black hair, often in a high ponytail or bun with loose strands",
+      "eyes": "Dark, intense gaze",
+      "build": "Athletic and curvaceous",
+      "outfit_variations": [
+        "Black leather armor with golden accents and intricate patterns",
+        "Traditional silk robes with armor elements",
+        "Sleek, modern interpretation of ninja attire",
+        "Revealing warrior princess outfit with ornate jewelry"
+      ],
+      "accessories": [
+        "Katana or dual swords",
+        "Ornate hair accessories",
+        "Face mask or veil",
+        "Arm guards and leg armor"
+      ]
+    },
+    "environmental_effects": [
+      "Heavy rain with water droplets on skin and clothes",
+      "Swirling embers or fireflies",
+      "Mist or fog",
+      "Cherry blossom petals in the wind"
+    ],
+    "pose_variations": [
+      "Combat-ready stance with weapon drawn",
+      "Meditative pose with eyes closed",
+      "Mid-action leap or acrobatic move",
+      "Stoic, straight-standing pose with intense gaze at viewer",
+      "Relaxed pose showcasing sensuality and confidence"
+    ],
+    "negative_prompt": "Low quality, blurry, distorted proportions, anachronistic elements, culturally insensitive stereotypes, excessively revealing or inappropriate outfits"
+  }
