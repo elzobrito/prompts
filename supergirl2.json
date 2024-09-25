@@ -1,0 +1,86 @@
+{
+    "subject": "A young woman with long blonde hair falling through the sky",
+    "character_details": {
+      "physical_appearance": {
+        "hair": "Long, flowing blonde hair streaming upwards due to the fall",
+        "body_type": "Athletic and toned, typical of a superhero",
+        "age_range": "Mid-twenties to early thirties"
+      },
+      "outfit": {
+        "top": "Batman's costume torso (dark grey or black with bat symbol on chest)",
+        "bottom": "Flash's pants (vibrant red with yellow lightning bolt details)",
+        "cape": "Superman's iconic red cape, billowing dramatically",
+        "headwear": "Wonder Woman's golden tiara with red star in the center",
+        "footwear": "Batman's dark boots",
+        "accessories": [
+          "Utility belt reminiscent of Batman's, but with a mix of gadgets from various heroes",
+          "Flash's lightning bolt earrings"
+        ]
+      },
+      "expression": "Determined and focused, with a hint of excitement in her eyes"
+    },
+    "action": {
+      "primary": "Falling or flying with both arms outstretched",
+      "secondary": "Cape and hair flowing upwards, creating dynamic lines",
+      "pose": "Body slightly arched, as if controlling the descent"
+    },
+    "setting": {
+      "location": "Above a densely packed cityscape",
+      "buildings": {
+        "style": "Mix of art deco and modern skyscrapers",
+        "colors": "Predominantly brown and beige, with occasional glass structures reflecting the sky",
+        "details": "Visible window patterns, rooftop water towers, and some recognizable landmark buildings"
+      },
+      "sky": "Clear blue with a few wispy clouds for added depth"
+    },
+    "time": "Bright midday sunlight",
+    "style": {
+      "artistic_style": "Modern comic book or graphic novel illustration",
+      "rendering_technique": "Bold, clear line work with flat colors and strategic shading for depth",
+      "color_scheme": "Vibrant and contrasting, emphasizing the character against the city backdrop"
+    },
+    "lighting": {
+      "type": "Bright, even lighting with subtle shadows to accentuate form",
+      "color_palette": "Vibrant colors - red (cape, pants), blue (sky), gold (tiara), dark grey/black (Batman suit), blonde (hair)",
+      "highlights": "Glints of light on the tiara and utility belt to add sparkle"
+    },
+    "detail_level": "High detail, focusing on:",
+      "character_focus": [
+        "Intricate costume details blending multiple hero outfits",
+        "Expression of determination and hair movement",
+        "Muscular definition suggesting superhuman strength"
+      ],
+      "environment_focus": [
+        "Detailed cityscape with individual buildings discernible",
+        "Tiny details like cars or people visible on the streets far below",
+        "Subtle atmospheric perspective to show depth"
+      ]
+    },
+    "composition_details": {
+      "shot_type": "Dynamic upward angle",
+      "perspective": "Looking up at the falling woman from below, city receding in the background",
+      "framing": "Character positioned slightly off-center, with more space in the direction she's falling/flying",
+      "depth": "Strong sense of vertical space, emphasizing the height and speed of the fall"
+    },
+    "atmosphere": {
+      "mood": "Exciting and perilous, with a sense of adventure and urgency",
+      "energy": "High-octane action scene frozen in a dramatic moment"
+    },
+    "cultural_reference": {
+      "genre": "Superhero comic crossover event",
+      "inspirations": [
+        "Classic DC Comics character designs",
+        "Modern reinterpretations of superhero costumes",
+        "Action scenes from contemporary comic book movies"
+      ]
+    },
+    "temporal_aspect": "A frozen moment of action, capturing peak drama and movement",
+    "narrative_implications": {
+      "story_hints": [
+        "Possible merging of multiple superhero identities or powers",
+        "Suggestion of a crisis requiring the abilities of several heroes",
+        "Potential for a unique origin story or transformative event"
+      ]
+    },
+    "negative_prompt": "Low quality, blurry, distorted proportions, unrelated elements, overly realistic photographic style, dark or gloomy atmosphere, inconsistent lighting, amateur comic style"
+  }
