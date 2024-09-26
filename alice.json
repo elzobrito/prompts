@@ -1,0 +1,23 @@
+{
+    "subject": "A young woman resembling Alice from Alice in Wonderland, shown in full body",
+    "action": "Standing at the edge of a rabbit hole, looking down with a mix of curiosity and apprehension, entire body visible",
+    "setting": "A dark, misty forest clearing with a large, gnarled tree and an ominous rabbit hole, ensuring the full body is framed",
+    "time": "Twilight, creating an eerie atmosphere",
+    "style": {
+      "artistic_style": "Ultra-realistic photography with dark fantasy elements",
+      "rendering_technique": "High-resolution digital photography with minimal post-processing to preserve extreme realism"
+    },
+    "lighting": {
+      "type": "Moody, low-key lighting with a soft glow emanating from the rabbit hole, highlighting textures and nuances throughout the entire body and dress",
+      "color_palette": "Deep blues and purples of twilight, contrasting with the pale blue of Alice's dress and the warm glow from the rabbit hole"
+    },
+    "detail_level": "Extremely high level of detail, capturing every fold and texture of Alice's dress, individual strands of her blonde hair, the roughness of the tree bark, and the misty atmosphere. Full body details including facial expression, hands, and feet should be clearly visible",
+    "composition_details": {
+      "shot_type": "Full body shot, ensuring the entire figure from head to toe is visible and well-framed within the forest clearing",
+      "angle": "Slight low angle, emphasizing Alice's position at the edge of the rabbit hole and the looming forest around her"
+    },
+    "atmosphere": "Mysterious, foreboding, and intriguing, with a sense of impending adventure intensified by extreme realism",
+    "cultural_reference": "Ultra-realistic and dark reinterpretation of Alice in Wonderland",
+    "temporal_aspect": "Timeless, blending classic fairy tale elements with contemporary gothic aesthetics in an ultra-modern photographic style",
+    "negative_prompt": "Bright, cheerful colors, cartoonish elements, typical Wonderland characters (White Rabbit, Mad Hatter, etc.), daytime setting, any indication of excessive digital manipulation or unrealistic effects, text, icons, watermarks, logos, signatures, frame borders, date stamps, copyright symbols, cropped body parts, close-up shots that don't show the full figure, traditional Alice in Wonderland imagery"
+  }

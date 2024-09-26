@@ -1,0 +1,23 @@
+{
+    "subject": "A young woman in a bright red hooded cloak, shown in full body",
+    "action": "Crouching and staring intensely at the viewer, entire body visible",
+    "setting": "Dark, undefined background with encircling chains, ensuring the full body is framed",
+    "time": "Timeless, modern fairy tale setting",
+    "style": {
+      "artistic_style": "Ultra-realistic photography with dark fantasy elements",
+      "rendering_technique": "High-resolution digital photography with minimal post-processing to preserve extreme realism"
+    },
+    "lighting": {
+      "type": "Precise and detailed lighting, highlighting textures and nuances throughout the entire body and cloak, creating high contrast",
+      "color_palette": "Vivid red against neutral dark greys and blacks"
+    },
+    "detail_level": "Extremely high level of detail, capturing every texture of the cloak from hood to hem, the shine of the chains, the intensity of the subject's gaze, and even individual skin pores and hair strands. Full body details including facial features, hands, and feet should be clearly visible",
+    "composition_details": {
+      "shot_type": "Full body shot, ensuring the entire figure from head to toe is visible and well-framed",
+      "angle": "Straight-on view, slightly elevated to capture the entire crouching figure"
+    },
+    "atmosphere": "Unsettling, dangerous, and intriguing, with a sense of defiance intensified by extreme realism",
+    "cultural_reference": "Ultra-realistic and dark reinterpretation of the Little Red Riding Hood fairy tale",
+    "temporal_aspect": "Timeless, blending classic fairy tale elements with contemporary gothic aesthetics in an ultra-modern photographic style",
+    "negative_prompt": "Bright colors (except for the red cloak), cheerful mood, forest background, wolf, grandma, picnic basket, daytime setting, any indication of excessive digital manipulation or unrealistic effects, text, icons, watermarks, logos, signatures, frame borders, date stamps, copyright symbols, cropped body parts, close-up shots that don't show the full figure"
+  }
