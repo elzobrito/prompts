@@ -1,0 +1,33 @@
+{
+    "character": "Professor Minerva McGonagall",
+    "moment": "Flying high towards the sky on her broomstick, appearing small compared to the towering Hogwarts castle with the moon illuminating the scene",
+    "description": {
+      "appearance": {
+        "age": "Elderly, appearing around 60 to 70 years old",
+        "height": "Appearing small and distant as she ascends toward the sky",
+        "attire": "Flowing robes in deep red and gold, Gryffindor house colors, with her robes billowing faintly as she soars upwards",
+        "hat": "Pointed hat matching her robes, faintly visible as she flies higher into the sky",
+        "accessories": "Her figure is small, but her distinct Gryffindor colors and silhouette remain visible from afar"
+      },
+      "pose": "Flying upwards, nearly reaching the sky, with her back visible to the viewer as she becomes smaller in the scene",
+      "environment": {
+        "location": "The night sky above Hogwarts, with the full moon and stars filling the sky",
+        "details": "McGonagall appears small, high above the ground as she ascends toward the moon. The viewer's perspective is grounded, showing the towering Hogwarts castle occupying much of the scene, with its iconic spires and turrets. The full moon dominates the sky, casting a magical glow over everything, while McGonagall is flying upward, nearing the sky.",
+        "background": "The moon is bright and full, illuminating the night sky and casting a soft glow over the Hogwarts castle and its surroundings. Stars are scattered across the sky, adding to the serene yet awe-inspiring atmosphere.",
+        "castle": "Hogwarts castle is large and imposing, with its stone towers and spires visible in the moonlight. The castle’s windows emit a faint, warm glow, contrasting the cool blue tones of the night.",
+        "lighting": "The scene is primarily lit by the moonlight, which bathes the castle and McGonagall's figure in soft, cool tones. The moon itself is a bright focal point, casting light on the castle and creating a silhouette of McGonagall as she flies upward.",
+        "magical_effects": "A subtle trail of magical energy can be seen behind her broomstick as she flies towards the sky."
+      },
+      "additional_details": {
+        "perspective": "From the ground looking up, McGonagall is far above, appearing small compared to the large, majestic Hogwarts castle. The full moon and stars add depth to the night sky, making McGonagall seem like she is reaching the heavens.",
+        "movement": "Her robes and hat are subtly billowing as she moves further upward, creating a sense of dynamic motion",
+        "textures": "Detailed stone textures on the Hogwarts castle, with its towers and spires prominently featured in the foreground, and McGonagall’s robes and broom visible in the distance."
+      }
+    },
+    "style": "Hyper-realistic, with photographic details; cinematic lighting and vivid colors",
+    "emotion": "Conveys awe, freedom, and a sense of grandeur as McGonagall flies into the sky, with Hogwarts and the moon in the background",
+    "orientation": "Vertical scene with McGonagall small, high in the sky, the large castle to the side, and the moon prominent",
+    "resolution": "Ultra high definition",
+    "negative_prompt": "text, watermarks, icons, logos, low quality, blur, grainy images, amateur art, compression artifacts, overexposure, underexposure, out of focus, duplications, distorted proportions, Slytherin colors (green and silver), Hufflepuff colors (yellow and black), Ravenclaw colors (blue and bronze), snake symbols, badger symbols, eagle symbols"
+  }
+  
