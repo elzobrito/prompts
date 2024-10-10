@@ -1,0 +1,23 @@
+{
+    "subject": "A sensual woman wearing lace lingerie, delicately holding a golden-orange rose with both hands",
+    "action": "The woman is standing still, gracefully presenting the rose towards the viewer, her posture elegant and poised",
+    "setting": "Close-up view focused on the woman's upper body, with the rose and her hands in sharp focus, while her face is slightly blurred for a soft, mysterious effect",
+    "time": "Not applicable",
+    "style": {
+      "artistic_style": "Photorealistic, glamorous",
+      "rendering_technique": "High-resolution photography with meticulous digital post-processing to enhance textures, contrasts, and lighting subtleties"
+    },
+    "lighting": {
+      "type": "Dramatic low-key lighting, casting gentle shadows that accentuate the glow of the rose and the intricate details of the lace",
+      "color_palette": "Deep, muted tones for the background and lingerie, contrasting vividly with the warm golden-orange hue of the rose"
+    },
+    "detail_level": "Extremely high detail, capturing the intricate lace patterns of the lingerie, the delicate texture of the rose petals, and the subtle expression of the woman’s hands",
+    "composition_details": {
+      "shot_type": "Close-up",
+      "angle": "Frontal, straight-on view, utilizing a shallow depth of field to blur the face slightly while keeping the rose and hands in crisp focus"
+    },
+    "atmosphere": "Sensual and intimate, with a subtle air of mystery, creating a sophisticated and seductive visual that feels elegant rather than overt",
+    "cultural_reference": "Glamour and fine art photography, inspired by high-end fashion editorials",
+    "temporal_aspect": "Not applicable",
+    "negative_prompt": "Low-quality, overly blurry, distorted proportions, vulgar or overly explicit elements, unnecessary props or distracting background"
+  }

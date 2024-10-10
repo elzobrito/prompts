@@ -1,0 +1,50 @@
+{
+    "subjects": [
+      {
+        "subject": "Achilles, the legendary Greek hero, wearing intricately detailed bronze armor with a helmet featuring a horsehair crest resembling a mohawk",
+        "action": "standing in a powerful, commanding stance, holding a spear in one hand and a shield in the other",
+        "setting": "ancient battlefield, possibly during the Trojan War, with a blurred background showing ruins, soldiers, and fallen warriors",
+        "time": "midday with strong, warm sunlight casting dramatic shadows across the scene",
+        "style": {
+          "artistic_style": "hyper-realistic mythological fantasy with lifelike textures and historical accuracy",
+          "rendering_technique": "high-quality hyper-realistic digital painting or 3D rendering, focusing on precise detail and realism"
+        },
+        "lighting": {
+          "type": "natural sunlight with warm, golden tones highlighting the reflective and worn metallic surface of Achilles' bronze armor",
+          "color_palette": "rich bronze tones on the armor, natural earthy colors for the battlefield, and neutral skin tones for balance"
+        },
+        "detail_level": "extremely high detail on textures, especially focusing on the worn bronze armor, intricate engravings on the shield, and fine details on the helmet with the horsehair crest",
+        "composition_details": {
+          "shot_type": "medium close-up focusing on the upper body, emphasizing the armor, weapons, and helmet with the horsehair crest",
+          "angle": "frontal view with a slight downward tilt to emphasize Achilles' dominance and legendary status"
+        },
+        "atmosphere": "powerful, heroic, and epic, evoking admiration and respect, with a sense of mythological grandeur",
+        "cultural_reference": "inspired by Achilles from Greek mythology, especially referencing his portrayal in the Trojan War, with armor and weapons reflecting ancient Greek design",
+        "temporal_aspect": "ancient Greece, specifically the time of the Trojan War, with subtle mythical elements in the background",
+        "negative_prompt": "low detail, flat lighting, lack of texture, distorted proportions, irrelevant elements"
+      },
+      {
+        "subject": "Male warrior in advanced futuristic armor with glowing red eyes",
+        "action": "standing in a threatening, intimidating pose, holding a massive futuristic sword",
+        "setting": "dystopian, high-tech city street with a blurry background showing towering buildings and debris",
+        "time": "evening or night, with dark shadows and strong glowing highlights from armor and city lights",
+        "style": {
+          "artistic_style": "hyper-realistic futuristic fantasy, with lifelike details and textures",
+          "rendering_technique": "hyper-realistic 3D rendering with meticulously detailed surface textures and glowing effects"
+        },
+        "lighting": {
+          "type": "cool, moody lighting with blue and purple undertones, with red and white glowing accents around the armor and eyes",
+          "color_palette": "dark metallic tones such as steel and silver, accented by glowing red elements and dark fabric"
+        },
+        "detail_level": "extremely high detail on armor textures, especially worn metallic surfaces, glowing lights, and fabric, with scratches and damage visible",
+        "composition_details": {
+          "shot_type": "full-body shot showing the warrior's imposing stance and the futuristic weapon",
+          "angle": "slightly low frontal angle to emphasize his dominating presence"
+        },
+        "atmosphere": "dark, oppressive, and menacing, evoking fear and awe, suggesting a powerful antagonist or anti-hero",
+        "cultural_reference": "inspired by dystopian science fiction and futuristic warriors, such as cyberpunk or apocalyptic themes",
+        "temporal_aspect": "set in a dystopian future or alternate reality with advanced technology",
+        "negative_prompt": "lack of detail, flat textures, unrealistic lighting, distorted proportions, off-theme elements"
+      }
+    ]
+  }

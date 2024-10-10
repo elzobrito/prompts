@@ -1,0 +1,37 @@
+{
+    "subject": "A blonde woman with black angel wings",
+    "action": "Sitting on the ground, gazing intensely at the camera",
+    "setting": "Grassy field with trees in the background, creating a natural, untamed environment",
+    "time": "Overcast day, with soft clouds adding a moody atmosphere",
+    "style": {
+      "artistic_style": "Gothic and dramatic fantasy photography",
+      "rendering_technique": "High-contrast black and white photograph, emphasizing contrasts between light and shadow to enhance the surreal and melancholic atmosphere"
+    },
+    "lighting": {
+      "type": "Soft, diffused natural light",
+      "color_palette": "Monochromatic, ranging from deep blacks to bright whites, highlighting the dramatic elements of the scene"
+    },
+    "detail_level": "High detail, focusing on the texture of the wings, lace dress, and the subject's facial features",
+    "composition_details": {
+      "shot_type": "Medium close-up, framing the subject clearly while maintaining focus on the wings and her intense gaze",
+      "angle": "Straight-on, eye-level view, creating a sense of direct connection with the viewer"
+    },
+    "atmosphere": "Melancholic, otherworldly, and slightly ominous",
+    "cultural_reference": "Gothic literature and fallen angel mythology, referencing classical tragic figures and supernatural elements",
+    "temporal_aspect": "Timeless, blending contemporary and classical elements",
+    "negative_prompt": {
+      "excluded_elements": [
+        "Color",
+        "Smiling",
+        "Urban setting",
+        "Modern clothing",
+        "Low quality",
+        "Blurry images",
+        "Distorted proportions",
+        "Unrelated elements"
+      ],
+      "watermark": "No watermarks or extraneous text should appear in the image",
+      "logos_icons": "Ensure no modern logos, brands, or contemporary icons are visible"
+    }
+  }
+   <lora:flux-lora:1> <lora:PerfectEyesXL:1> <lora:skin texture style v4:1>
