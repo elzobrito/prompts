@@ -1,0 +1,51 @@
+{
+    "subjects": [
+      {
+        "subject": "Male warrior in bronze armor, intricately detailed with a helmet featuring a horsehair crest shaped like a mohawk",
+        "action": "standing in a commanding pose, holding a spear or sword in a powerful stance",
+        "setting": "an ancient or fantasy battlefield, with a blurred background showcasing ruins and scattered weapons",
+        "time": "midday under strong, warm sunlight, casting dramatic shadows",
+        "style": {
+          "artistic_style": "charcoal drawing with subtle colored accents",
+          "rendering_technique": "hand-drawn, textured style using soft charcoal for shading, with colored highlights to emphasize the bronze armor and background lighting"
+        },
+        "lighting": {
+          "type": "soft, diffused sunlight with warm golden tones, blending seamlessly with charcoal shading for depth",
+          "color_palette": "muted tones, primarily grays with golden highlights on the armor and earthy hues for the background"
+        },
+        "detail_level": "highly detailed, focusing on the worn textures of the bronze armor, but maintaining an expressive, sketch-like quality",
+        "composition_details": {
+          "shot_type": "medium close-up to emphasize the upper body and helmet",
+          "angle": "frontal view with a slight downward tilt to enhance the warrior's strength and presence"
+        },
+        "atmosphere": "heroic and mythological, using artistic abstraction to capture strength and legacy through expressive charcoal strokes",
+        "cultural_reference": "inspired by mythological heroes, portrayed in a classical charcoal drawing style",
+        "temporal_aspect": "set in an ancient fantasy world with subtle, abstract magical elements suggested by charcoal lines",
+        "negative_prompt": "overly clean lines, flat digital rendering, lack of artistic texture, missing expressive strokes"
+      },
+      {
+        "subject": "Male warrior in advanced, futuristic armor with glowing red eyes",
+        "action": "standing in an intimidating pose, holding a massive futuristic sword",
+        "setting": "dystopian, high-tech city street, with a blurred background of towering buildings and debris",
+        "time": "evening or night, with dark shadows and glowing highlights from the armor and city lights",
+        "style": {
+          "artistic_style": "charcoal sketch with vibrant red accents",
+          "rendering_technique": "expressive charcoal sketch, incorporating bold red highlights in the eyes and armor"
+        },
+        "lighting": {
+          "type": "moody, high-contrast lighting that emphasizes deep charcoal shading and the striking red glow",
+          "color_palette": "mainly gray tones from charcoal, with bright red accents standing out in the armor and eyes"
+        },
+        "detail_level": "detailed, yet maintaining an expressive and loose sketch quality, focusing on the contrast between the dark cityscape and the glowing armor",
+        "composition_details": {
+          "shot_type": "full-body shot, using strong charcoal strokes to highlight the warrior's imposing stance",
+          "angle": "low frontal angle to enhance the dominance of the figure and the glow of the armor"
+        },
+        "atmosphere": "menacing, dystopian, and oppressive, with intense charcoal shading and unsettling red highlights",
+        "cultural_reference": "inspired by cyberpunk dystopian themes, illustrated in a hand-drawn charcoal style with futuristic details",
+        "temporal_aspect": "set in a dystopian future, where technology is emphasized by the contrast between charcoal shading and glowing elements",
+        "negative_prompt": "clean digital lines, flat colors, lack of texture or expressive shading, unrealistic lighting"
+      }
+    ]
+  }
+  
