@@ -1,0 +1,23 @@
+{
+    "subject": "A stylized geometric iguana",
+    "action": "Perched on a branch, composed entirely of geometric shapes",
+    "setting": "Abstract representation of a tropical environment using geometric patterns",
+    "time": "Not explicitly represented, timeless geometric design",
+    "style": {
+      "artistic_style": "Geometric abstraction with elements of cubism",
+      "rendering_technique": "Digital illustration with clean lines and distinct color blocks"
+    },
+    "lighting": {
+      "type": "Implied lighting through color gradients within geometric shapes",
+      "color_palette": "Vibrant teals, blues, greens, and accents of pink and purple"
+    },
+    "detail_level": "High detail in geometric complexity, not in realistic representation",
+    "composition_details": {
+      "shot_type": "Full body view of the iguana",
+      "angle": "Frontal view to showcase the symmetry and geometric design"
+    },
+    "atmosphere": "Modern, stylized representation of nature, blending organic forms with geometric precision",
+    "cultural_reference": "Contemporary digital art trends and geometric abstraction of natural forms",
+    "temporal_aspect": "Contemporary, reflecting modern digital art techniques",
+    "negative_prompt": "Photorealistic details, smooth organic shapes, traditional artistic techniques, muted or earth-tone colors"
+  }
