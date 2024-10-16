@@ -1,0 +1,89 @@
+{
+    "task_description": "Generate a prompt to help improve an existing instruction with minimal changes, ensuring reasoning steps are placed before conclusions.",
+    "context": {
+        "difficulty_level": "intermediate",
+        "target_audience": "educators",
+        "goal": "Create structured educational prompts for generating lesson plans and assessments."
+    },
+    "additional_details": "For complex prompts, enhance clarity and add missing elements without altering the original structure. Ensure the final output includes detailed reasoning steps, examples if needed, and a clear output format. Consider the audience and difficulty level when structuring the prompt.",
+    "subtasks": {
+        "task_1": {
+            "description": "Understand the objective and expected output of the task.",
+            "context": {
+                "input_details": "User provides educational goals and topics.",
+                "output_expectations": "Clear prompt to generate specific educational content."
+            }
+        },
+        "task_2": {
+            "description": "Determine the level of complexity of the existing prompt and evaluate whether minimal improvements or structural changes are needed."
+        },
+        "task_3": {
+            "description": "If the prompt is simple, make minimal improvements focused on clarity. If it is complex, add elements that ensure reasoning is properly conveyed before conclusions."
+        },
+        "task_4": {
+            "description": "Maintain the original structure of the input unless significant improvements are needed for clarity or alignment with the task goal."
+        },
+        "task_5": {
+            "description": "Include examples to clarify complex concepts, using placeholders for specific variables."
+        },
+        "task_6": {
+            "description": "Ensure all constants, variables, and placeholders are kept intact."
+        },
+        "task_7": {
+            "description": "Review the prompt, and provide feedback based on the quality of reasoning, clarity, and alignment with the target audience and difficulty level."
+        }
+    },
+    "output_format": {
+        "type": "JSON",
+        "structure": {
+            "task_description": "Short sentence describing the task.",
+            "context": {
+                "difficulty_level": "Beginner/Intermediate/Advanced",
+                "target_audience": "Educators, Students, Developers, etc.",
+                "goal": "The final objective of the task."
+            },
+            "subtasks": [
+                "List of smaller steps necessary to accomplish the task."
+            ],
+            "output_format": {
+                "type": "JSON or Markdown",
+                "specific_format": "Clear description of how the output should be structured."
+            },
+            "examples": [
+                "If examples are needed, include high-quality examples with placeholders for complex elements."
+            ],
+            "feedback": [
+                "An automatic feedback section to evaluate the effectiveness of the prompt."
+            ],
+            "notes": [
+                "Optional section for additional considerations."
+            ]
+        }
+    },
+    "examples": [
+        {
+            "input": "Generate a prompt for an educational tool.",
+            "output": "Create a prompt that guides the tool to generate multiple-choice questions for a math quiz. Ensure reasoning steps are included before revealing the answer choices."
+        },
+        {
+            "input": "Improve an existing prompt that evaluates essay responses.",
+            "output": "Enhance the clarity by specifying the criteria for evaluation. Include reasoning for how the criteria are applied before concluding the assessment."
+        },
+        {
+            "input": "Develop a lesson plan for a high school class on climate change.",
+            "output": "Create a lesson plan that includes an introduction to the science behind climate change, a discussion of global impacts, and a section on mitigation strategies. Ensure that the objectives of the lesson are clear before concluding with a class activity."
+        }
+    ],
+    "feedback": {
+        "score": {
+            "clarity": "Rating from 1 to 10 based on the clarity of the prompt.",
+            "alignment": "Rating from 1 to 10 based on the alignment with the task's goal and target audience.",
+            "completeness": "Rating from 1 to 10 based on how complete the prompt is in covering all necessary steps."
+        },
+        "comments": "Provide comments on strengths and areas for improvement."
+    },
+    "notes": [
+        "Consider including optional sections depending on the complexity of the task.",
+        "If working with a complex educational scenario, ensure the examples reflect a range of situations the target audience might encounter."
+    ]
+}
