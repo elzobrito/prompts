@@ -1,0 +1,66 @@
+{
+    "tipo_imagem": "Desenho infantil",
+    "idade_crianca": {
+        "faixa_etaria": "5 a 8 anos",
+        "descricao": "Reflete o desenvolvimento cognitivo, motor e compreensão do mundo típicos dessa idade"
+    },
+    "caracteristicas": [
+        {
+            "nome": "Traços Irregulares e Imprecisos",
+            "descricao": "Contornos desiguais e ondulados, indicando controle motor em desenvolvimento",
+            "instrucao": "Use linhas onduladas e não retas, com espessura variável para todos os contornos"
+        },
+        {
+            "nome": "Coloração Fora das Linhas",
+            "descricao": "Cores ultrapassam os contornos, mostrando falta de precisão",
+            "instrucao": "Cerca de 30% das áreas coloridas devem ultrapassar os contornos"
+        },
+        {
+            "nome": "Simplicidade Estilística",
+            "descricao": "Elementos simplificados para formas básicas",
+            "instrucao": "Use círculos para cabeças, linhas retas para corpos, triângulos para asas (se houver). O corpo deve ter formas simples e geométricas"
+        },
+        {
+            "nome": "Esquema de Cores Básico",
+            "descricao": "Uso de cores primárias e secundárias sem graduações",
+            "instrucao": "Utilize apenas vermelho, azul, amarelo, verde, laranja e roxo, sem sombreamento"
+        },
+        {
+            "nome": "Perspectiva e Proporção Inconsistentes",
+            "descricao": "Falta de profundidade espacial e tamanhos desproporcionais",
+            "instrucao": "A cabeça deve ser desproporcionalmente grande em relação ao corpo"
+        },
+        {
+            "nome": "Representação Literal e Iconográfica",
+            "descricao": "Elementos típicos da arte infantil",
+            "instrucao": "Inclua um sol sorridente com raios e rostos felizes nos personagens"
+        },
+        {
+            "nome": "Composição Ingênua",
+            "descricao": "Elementos parecem flutuar sem um chão definido",
+            "instrucao": "Faça os elementos parecerem suspensos no ar, sem chão definido"
+        },
+        {
+            "nome": "Uso Espontâneo do Espaço",
+            "descricao": "Distribuição aleatória dos elementos",
+            "instrucao": "Distribua os elementos de forma aleatória pela imagem"
+        },
+        {
+            "nome": "Figura Humana Simplificada",
+            "instrucao": "Represente pessoas com 'palitos' para braços e pernas"
+        },
+        {
+            "nome": "Detalhes Exagerados",
+            "instrucao": "Destaque elementos importantes com olhos grandes ou mãos com muitos dedos"
+        }
+    ],
+    "contexto": "O desenho deve refletir a visão de mundo de uma criança de 5 a 8 anos, mostrando sua compreensão em desenvolvimento do ambiente ao seu redor, suas emoções e sua imaginação",
+    "estilo": "A imagem deve parecer autêntica e espontânea, como se tivesse sido realmente criada por uma criança nessa faixa etária",
+    "observacoes": [
+        "A maneira como uma criança desenha reflete diretamente o seu desenvolvimento cognitivo e motor, além de sua compreensão do mundo ao redor",
+        "O desenho não deve conter linhas de proporção ou guias",
+        "Algumas áreas podem ficar sem colorir para refletir o estilo típico dessa faixa etária"
+    ],
+    "validation_regex": "(?=.*Traços\\sIrregulares\\s[eE]\\sImprecisos)(?=.*Coloração\\sFora\\sdas\\sLinhas)(?=.*Simplicidade\\sEstilística)(?=.*Esquema\\sde\\sCores\\sBásico)(?=.*Perspectiva\\se\\sProporção\\sInconsistentes)(?=.*Representação\\sLiteral\\se\\sIconográfica)(?=.*Composição\\sIngênua)(?=.*Uso\\sEspontâneo\\sdo\\sEspaço)",
+    "tamanho_imagem": "1024x1024"
+}
