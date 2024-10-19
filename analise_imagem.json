@@ -1,0 +1,123 @@
+{
+    "analise_e_geracao_de_imagem": {
+      "instrucao_geral": {
+        "descricao": "Analise a imagem a seguir, concentrando-se nos aspectos mais relevantes para capturar sua essência e transmitir uma descrição detalhada. Após a análise, crie um prompt detalhado para gerar uma imagem semelhante."
+      },
+      "analise_imagem": {
+        "contexto_geral": {
+          "tipo_imagem": "Especifique o tipo de imagem (fotografia, pintura, ilustração, arte digital, etc.)",
+          "estilo_artistico": "Identifique o estilo artístico ou técnica utilizada",
+          "epoca_estimada": "Estime a época ou período da imagem, se aplicável",
+          "autor_artista": "Identifique o autor ou artista, se conhecido"
+        },
+        "elementos_visuais": {
+          "composicao": {
+            "enquadramento": "Descreva o tipo de enquadramento utilizado",
+            "perspectiva": "Analise a perspectiva e o ponto de vista da imagem",
+            "equilibrio": "Avalie o equilíbrio e a harmonia na composição",
+            "ponto_focal": "Identifique o ponto focal da imagem"
+          },
+          "cores": {
+            "paleta": "Descreva a paleta de cores utilizada",
+            "harmonias": "Identifique as harmonias cromáticas presentes",
+            "simbolismo": "Analise o simbolismo e impacto emocional das cores"
+          },
+          "luz_e_sombra": {
+            "fonte_luz": "Identifique a fonte e direção da luz",
+            "contraste": "Analise o uso de contraste e áreas de luz e sombra",
+            "atmosfera": "Descreva a atmosfera criada pela iluminação"
+          },
+          "linhas_e_formas": {
+            "tipos_linhas": "Identifique os tipos de linhas presentes (retas, curvas, etc.)",
+            "formas_geometricas": "Descreva as formas geométricas predominantes",
+            "formas_organicas": "Analise a presença de formas orgânicas ou naturais"
+          },
+          "textura": {
+            "tipos": "Identifique os tipos de texturas presentes",
+            "tecnica": "Descreva as técnicas utilizadas para criar texturas",
+            "efeito": "Analise o efeito das texturas na percepção da imagem"
+          },
+          "movimento": {
+            "dinamismo": "Avalie o dinamismo e sensação de movimento na imagem",
+            "tecnicas": "Identifique técnicas utilizadas para sugerir movimento"
+          },
+          "escala_e_proporcao": {
+            "relacoes": "Analise as relações de tamanho entre os elementos",
+            "impacto": "Avalie o impacto da escala na percepção da imagem"
+          }
+        },
+        "conteudo_e_narrativa": {
+          "tema_principal": "Identifique o tema ou assunto principal da imagem",
+          "elementos_cena": "Descreva os principais elementos, objetos ou figuras presentes",
+          "simbolismo": "Analise o simbolismo e metáforas visuais",
+          "narrativa": "Interprete a narrativa ou história contada pela imagem",
+          "contexto_cultural": "Relacione a imagem com seu contexto cultural e histórico"
+        },
+        "tecnica_e_execucao": {
+          "meio": "Identifique o meio ou suporte utilizado",
+          "tecnicas": "Descreva as técnicas artísticas empregadas",
+          "estilo": "Analise o estilo pessoal do artista, se identificável",
+          "habilidade": "Avalie a habilidade técnica demonstrada na execução"
+        },
+        "impacto_e_interpretacao": {
+          "emocao": "Descreva as emoções evocadas pela imagem",
+          "mensagem": "Interprete a possível mensagem ou intenção do artista",
+          "relevancia": "Avalie a relevância cultural e artística da obra",
+          "publico": "Analise como diferentes públicos podem interpretar a imagem"
+        },
+        "contextualizacao": {
+          "movimento_artistico": "Relacione a obra com movimentos artísticos relevantes",
+          "influencias": "Identifique possíveis influências artísticas",
+          "comparacoes": "Compare com outras obras do mesmo artista ou período",
+          "impacto_cultural": "Avalie o impacto da obra na cultura e sociedade"
+        },
+        "analise_critica": {
+          "pontos_fortes": "Identifique os pontos fortes e aspectos bem-sucedidos da obra",
+          "limitacoes": "Analise possíveis limitações ou áreas de melhoria",
+          "inovacao": "Avalie o grau de inovação ou originalidade da obra",
+          "relevancia_contemporanea": "Discuta a relevância da obra no contexto contemporâneo"
+        },
+        "acessibilidade": {
+          "descricao": "Forneça uma descrição detalhada para pessoas com deficiência visual",
+          "interpretacao_alternativa": "Considere interpretações alternativas baseadas em diferentes experiências",
+          "sugestoes": "Proponha sugestões para tornar a imagem mais acessível"
+        }
+      },
+      "geracao_prompt": {
+        "instrucoes": "Baseando-se na análise realizada, crie um prompt detalhado para recriar uma imagem semelhante, capturando seus elementos essenciais.",
+        "estrutura_prompt": {
+          "subject": "Descreva o assunto principal da imagem",
+          "action": "Descreva a ação ou dinâmica principal na imagem",
+          "setting": "Descreva o ambiente ou cenário da imagem",
+          "time": "Especifique o período ou momento do dia",
+          "style": {
+            "artistic_style": "Descreva o estilo artístico",
+            "rendering_technique": "Descreva a técnica de renderização utilizada"
+          },
+          "lighting": {
+            "type": "Descreva o tipo de iluminação",
+            "color_palette": "Descreva a paleta de cores utilizada"
+          },
+          "detail_level": "Descreva o nível de detalhamento desejado",
+          "composition": {
+            "shot_type": "Descreva o tipo de enquadramento",
+            "angle": "Descreva o ângulo da tomada"
+          },
+          "atmosphere": "Descreva a atmosfera ou o sentimento geral da imagem",
+          "cultural_reference": "Relacione com referências culturais, se aplicável",
+          "temporal_aspect": "Descreva qualquer aspecto temporal relevante",
+          "camera": {
+            "use_camera_settings": "Defina como true ou false com base na análise",
+            "model": "Especifique o modelo da câmera, se aplicável",
+            "iso": "Especifique o ISO",
+            "aperture": "Especifique a abertura",
+            "shutter_speed": "Especifique a velocidade do obturador",
+            "lens": "Especifique a lente utilizada"
+          }
+        },
+        "negative_prompt": "FastNegativeV2, worst quality, low quality, badhandv4, extra arms, out of frame, lowres, text, error, cropped, jpeg artifacts, duplicate, wrong proportions, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck, username, watermark, signature, bad hands, (low quality, worst quality:1.3), backlit, corrupted image, letters, words, censored, multiple fingers, multiple legs, bad hands, blur, pixelated, bad anatomy:1.2, cropped hands, artist name, extra digit, loli, fewer digit, author name, names, autograph, hand writing, written text, five legs, five legs, 3 legs, three legs, five legs, 5 legs, bad hands, bad legs, bad body shape, multiple tails, two tails, deformed body, imperfect painting, blurry hands, blurry face, blurry body, blurry image, bad eyes, ugly face, ugly eyes, repetition, ugly body, child, kid, underage, shota"
+      },
+      "validacao_regex": "^(?=.*instrucao_geral)(?=.*analise_imagem)(?=.*geracao_prompt).*$"
+    }
+  }
+  
