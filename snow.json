@@ -1,0 +1,23 @@
+{
+  "subject": "A Snow White cosplay featuring a person in a stylized blue and yellow lace crochet bikini with red bow accessories",
+  "action": "Standing in a playful pose on a beach, holding a red apple with one hand raised gracefully",
+  "setting": "Sunny beach with ocean waves and sandy shore, clear blue sky with soft clouds",
+  "time": "Daytime with bright natural lighting",
+  "style": {
+    "artistic_style": "contemporary fashion photography with cosplay elements",
+    "rendering_technique": "high-quality digital photography with natural lighting"
+  },
+  "lighting": {
+    "type": "bright natural sunlight with soft shadows",
+    "color_palette": "vibrant royal blue, golden yellow, bright red accents, light blue sky, beige sand"
+  },
+  "detail_level": "high detail, emphasizing the lace crochet bikini, costume elements, facial expression, and beach environment",
+  "composition_details": {
+    "shot_type": "three-quarter body shot",
+    "angle": "straight-on, slightly below eye level"
+  },
+  "atmosphere": "playful and whimsical, blending fairy tale elements with modern beach aesthetic",
+  "cultural_reference": "modern interpretation of Snow White fairy tale character",
+  "temporal_aspect": "contemporary styling of classic character",
+  "negative_prompt": "Avoid low quality, blur, distorted proportions, harsh shadows, oversaturation, unnatural poses, or inconsistent lighting"
+}
