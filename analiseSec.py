@@ -61,23 +61,7 @@ def analyze_with_llm(file_content, model):
     numbered_code = "\n".join(f"{i+1}: {line}" for i, line in enumerate(lines))
 
     # Prompt solicitando JSON estrito e referência de linhas (se possível)
-    prompt_base = f"""
-Analise o seguinte código e retorne **exatamente** um objeto JSON, sem qualquer texto adicional fora do JSON.
-Este JSON deve conter cada vulnerabilidade (lista abaixo) como chave.
-Para cada chave, retorne um objeto com:
-  - "presente": "Sim" ou "Não"
-  - "descricao": breve explicação, incluindo, se possível, a linha do código onde ocorre a falha.
-
-Exemplo de resposta JSON (seguindo estritamente este padrão):
-{{
-  "Cross-Site Scripting (XSS)": {{
-    "presente": "Sim",
-    "descricao": "Encontrado ponto de injeção de script na linha 42."
-  }},
-  "SQL Injection": {{
-    "presente": "Não",
-    "descricao": ""
-  }}
+    prompt_base = f"""rocure por padrões de injeção SQL, XSS, e outras vulnerabilidades, considerando que a linguagem pode variar
 }}
 
 Código (com numeração de linha):
