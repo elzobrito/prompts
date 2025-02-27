@@ -61,10 +61,9 @@ def analyze_with_llm(file_content, model):
     numbered_code = "\n".join(f"{i+1}: {line}" for i, line in enumerate(lines))
 
     # Prompt solicitando JSON estrito e referência de linhas (se possível)
-    prompt_base = f"""rocure por padrões de injeção SQL, XSS, e outras vulnerabilidades, considerando que a linguagem pode variar
-}}
+    prompt_base = f"""procure por padrões de injeção SQL, XSS, e outras vulnerabilidades, considerando que a linguagem pode variar
 
-Código (com numeração de linha):
+    Código (com numeração de linha):
 {numbered_code}
 
 Vulnerabilidades a verificar (use EXATAMENTE como chaves no JSON):
