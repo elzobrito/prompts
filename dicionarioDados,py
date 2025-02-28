@@ -6,21 +6,6 @@ from ttkthemes import ThemedTk
 from tkinter import filedialog
 import ollama
 import uuid  # Importação da biblioteca UUID
-from openai import OpenAI
-
-client = OpenAI();
-# Lista de vulnerabilidades
-VULNERABILITIES = [
-    "Cross-Site Scripting (XSS)", "SQL Injection", "Falta de verificação de autorização",
-    "Corrupção de memória", "Session Riding", "Dereferência de ponteiro NULL",
-    "Ponteiro pendente", "Travessia de diretório", "Leitura fora dos limites",
-    "Upload de arquivo não restrito", "Injeção de shell", "Overflow de buffer clássico",
-    "Marshalling, Unmarshaling", "Divulgação de informação", "Vazamento de memória",
-    "Injeção de código", "Injeção de comando", "Falsificação de solicitação do lado do servidor (SSRF)",
-    "Validação inadequada de entrada", "Verificação incorreta de autorização",
-    "Referência direta de objeto inseguro (IDOR)", "Problemas de autenticação",
-    "Problemas de autorização", "Overflow ou estouro de inteiro", "Condição de corrida"
-]
 
 def listar_arquivos(pasta, listbox):
     """Lista todos os arquivos de uma pasta na interface gráfica."""
@@ -57,43 +42,31 @@ def mostrar_conteudo_arquivo(listbox, pasta, text_widget):
     except Exception as e:
         text_widget.delete("1.0", tk.END)
         text_widget.insert(tk.END, f"Erro ao abrir arquivo: {str(e)}")
+
 def analyze_with_llm(file_content, model):
-    """Analisa o código com LLM e retorna as vulnerabilidades identificadas."""
+    """Analisa o arquivo SQL com LLM e retorna o dicionário de dados."""
     prompt = f"""
-Analise o código a seguir e identifique possíveis vulnerabilidades com base na lista fornecida.
+Crie um dicionário de dados em português para este banco de dados. Para a descrição de cada campo, interprete o conteúdo das linhas e forneça uma explicação clara e detalhada sobre seu significado e uso.
 
-Código:
+Arquivo SQL:
 {file_content}
-
-Critérios de análise:
-Verifique se o código contém alguma das seguintes vulnerabilidades:
-{', '.join(VULNERABILITIES)}
-
-Saída esperada:
-
-Para cada vulnerabilidade identificada:
-* Nome da vulnerabilidade
-* Descrição detalhada explicando por que o código é vulnerável
-* Cenário de exploração demonstrando como um atacante poderia explorar a falha
-* Sugestão de correção incluindo boas práticas de segurança
-* Se nenhuma vulnerabilidade for encontrada, forneça uma breve justificativa explicando por que o código parece seguro.
     """
     try:
-        response = client.chat.completions.create(
+        response = ollama.chat(
             model=model,
             messages=[{"role": "user", "content": prompt}],
             stream=True
         )
         response_text = ""
         for chunk in response:
-            if chunk.choices[0].delta.content is not None:
-                response_text += chunk.choices[0].delta.content
+            if isinstance(chunk, dict) and "message" in chunk and "content" in chunk["message"]:
+                response_text += chunk["message"]["content"]
         return response_text
     except Exception as e:
         return f"Erro ao analisar: {str(e)}"
 
 def executar_analise(listbox, pasta, text_widget, model_var, progress_bar):
-    """Executa a análise de segurança no arquivo selecionado e salva o resultado em um arquivo HTML."""
+    """Executa a geração do dicionário de dados no arquivo selecionado e salva o resultado em um arquivo HTML."""
     def run_analysis():
         try:
             selecionado = listbox.curselection()
@@ -117,7 +90,7 @@ def executar_analise(listbox, pasta, text_widget, model_var, progress_bar):
                     html_file.write(f"<html><body><pre>{resultado}</pre></body></html>")
                 
                 # Informar ao usuário que o arquivo foi salvo
-                messagebox.showinfo("Sucesso", f"Análise salva em {nome_arquivo}")
+                messagebox.showinfo("Sucesso", f"Dicionário de dados salvo em {nome_arquivo}")
         except Exception as e:
             progress_bar.stop()
             text_widget.delete("1.0", tk.END)
@@ -127,7 +100,7 @@ def executar_analise(listbox, pasta, text_widget, model_var, progress_bar):
 
 # Interface gráfica
 root = ThemedTk(theme="equilux")
-root.title("Análise de Vulnerabilidades com LLM Local (Ollama)")
+root.title("Geração de Dicionário de Dados com LLM Local (Ollama)")
 root.geometry("700x500")
 
 frame_top = ttk.Frame(root)
@@ -136,8 +109,8 @@ frame_top.pack(fill="x", padx=10, pady=5)
 model_label = ttk.Label(frame_top, text="Modelo:")
 model_label.pack(side="left", padx=5)
 
-model_var = tk.StringVar(value="gpt-4o")
-model_combobox = ttk.Combobox(frame_top, textvariable=model_var, values=["gpt-4o"])
+model_var = tk.StringVar(value="phi4")
+model_combobox = ttk.Combobox(frame_top, textvariable=model_var, values=["phi4"])
 model_combobox.pack(side="left", fill="x", expand=True, padx=5)
 
 project_path_var = tk.StringVar()
